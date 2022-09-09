@@ -28,7 +28,7 @@ class SonDakikaCom
     }
 
 
-    public function getNews($url)
+    private function getNews($url)
     {
         $response = $this->client->getResponse($url);
         $this->dom->loadStr($response);
