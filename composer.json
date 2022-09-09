@@ -1,7 +1,7 @@
 {
     "name": "evrenonur/haberbotu",
     "type": "library",
-    "description": "Sondakika haberleri alabileceğiniz bot.",
+    "description": "Guncel haber sitelerinde yer alan haberleri kategorileri ile birlikte cekebilirsiniz.",
     "keywords": ["haberler", "sondakika haberler", "haber botu","php bot"],
     "license": "MIT",
     "authors": [
