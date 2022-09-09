@@ -10,6 +10,7 @@ Güncel haber sitelerinde yer alan haberleri kategorileri ile birlikte çekebili
 ## Yol haritası
 
 - Sondakika.com > Eklendi!
+- TrtHaber.com > Eklendi!
 
 - Daha fazla haber sitesi ekleme
 
@@ -27,11 +28,16 @@ getCategoryNews() Fonksiyonu için seçilen sitenin ilgili kategorisi verilir.
 ```php
 require_once "vendor/autoload.php";
 
+/*SonDakikaCom*/
 $sondakikacom = new \Evren\Haberler\Siteler\SonDakikaCom();
-
 $haberler = $sondakikacom->getCategoryNews(\Evren\Haberler\Kategoriler\SonDakikaComKategoriler::DUNYA);
-
 print_r($haberler);
+
+/*TRT HABER*/
+$trt = new \Evren\Haberler\Siteler\TrtHaberCom();
+echo "<pre>";
+print_r($trt->getCategoryNews(\Evren\Haberler\Kategoriler\TrtHaberComKategoriler::YASAM));
+echo "</pre>";
 ```
 
 ## Örnek Çıktı
