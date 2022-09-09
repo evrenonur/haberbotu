@@ -1,7 +1,8 @@
 <?php
 
-namespace Haberler\Kategoriler;
-class SonDakikaComKategori
+namespace Evren\Haberler\Kategoriler;
+
+class SonDakikaComKategoriler
 {
     const GUNCEL = "guncel/";
     const POLITIKA = "politika/";

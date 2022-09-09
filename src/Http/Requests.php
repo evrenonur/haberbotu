@@ -1,8 +1,11 @@
 <?php
 
-namespace Haberler\Http;
+namespace Evren\Haberler\Http;
+
 use GuzzleHttp\Client;
-class  Requests {
+
+class Requests
+{
 
     private $client;
     public function __construct($baseURI = "")
