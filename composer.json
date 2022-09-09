@@ -1,5 +1,5 @@
 {
-    "name": "evrenonur/haber-botu",
+    "name": "evrenonur/haberbotu",
     "type": "library",
     "description": "Sondakika haberleri alabileceğiniz bot.",
     "keywords": ["haberler", "sondakika haberler", "haber botu","php bot"],
