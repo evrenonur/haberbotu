@@ -1,0 +1,28 @@
+{
+    "name": "evrenonur/haber-botu",
+    "type": "library",
+    "description": "Sondakika haberleri alabileceğiniz bot.",
+    "keywords": ["haberler", "sondakika haberler", "haber botu","php bot"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Onur Evren",
+            "email": "info@onurevren.com",
+            "homepage": "https://onurevren.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.4",
+        "guzzlehttp/guzzle": "^7.5",
+        "paquettg/php-html-parser": "^3.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Haberler\\": "src"
+        }
+    }
+}
+
+
+
+
