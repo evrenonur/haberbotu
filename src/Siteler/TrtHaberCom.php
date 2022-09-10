@@ -23,7 +23,6 @@ class TrtHaberCom
         $this->dom->loadStr($response);
         $urls = $this->dom->find('div[class="katListe2"] div[class="row"] a[class="cat-page-small-item"]');
         foreach ($urls as $url) {
-            $this->getNews($url->href);
             $news[] = $this->getNews($url->href);
         }
         return $news;
