@@ -11,6 +11,7 @@ Güncel haber sitelerinde yer alan haberleri kategorileri ile birlikte çekebili
 
 - Sondakika.com > Eklendi!
 - TrtHaber.com > Eklendi!
+- Sozcu.com.tr > Eklendi!
 
 - Daha fazla haber sitesi ekleme
 
@@ -38,6 +39,13 @@ $trt = new \Evren\Haberler\Siteler\TrtHaberCom();
 echo "<pre>";
 print_r($trt->getCategoryNews(\Evren\Haberler\Kategoriler\TrtHaberComKategoriler::YASAM));
 echo "</pre>";
+
+/*Sozcu.com.tr*/
+$sozcu = new \Evren\Haberler\Siteler\SozcuCom();
+echo "<pre>";
+print_r($sozcu->getCategoryNews(\Evren\Haberler\Kategoriler\SozcuComKategoriler::GUNDEM));
+echo "</pre>";
+
 ```
 
 ## Örnek Çıktı
